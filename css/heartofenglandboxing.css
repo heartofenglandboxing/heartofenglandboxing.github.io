@@ -47,14 +47,19 @@ h2 {
 }
 /* Carousel Overlay */
 .carousel-overlay {
-	position: absolute;
-	bottom: 100px;
+	position: absolute;	
 	right: 0;
 	left: 0;
+}
+.carousel-overlay.carousel-heading {	
+	bottom: 100px;	
 }
 .carousel-overlay {
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+.carousel-overlay.carousel-text {	
+	bottom: 60px;	
 }
 .carousel-overlay .btn {
 	border-top: none;
